@@ -127,6 +127,8 @@ class RecipeView extends View {
   }
 
   _generateMarkupIngredient(ing) {
+    console.log(new fracty(ing.quantity));
+
     return `<li class="recipe__ingredient">
    <svg class="recipe__icon">
      <use href="${icons}#icon-check"></use>
