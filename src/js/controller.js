@@ -126,6 +126,9 @@ const newFeature = function () {
   console.log('welcome to the app');
 };
 
+/**
+ * initializing all functions
+ */
 const init = function () {
   bookmarksView.addHandlerRender(controlAddBookmarks);
   recipeView.addHandlerRender(controlRecipe);
